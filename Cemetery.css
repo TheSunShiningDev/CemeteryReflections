@@ -8,36 +8,52 @@
 }
 .BG_c_D {
     background-color: var(--mainColor2);
+    color: white;
+}
+.BG_c_White {
+  background-color: white;
+}
+.BG_c_Red {
+  background-color: var(--manColor5);
 }
 body {
     padding: 0px;
     margin: 0px;
     font-size: 20px;
-}
-.background {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    min-width: 98vw;
-    min-height: 100vh;
-    z-index: -1;
+    background-color: var(--mainColor6);
 }
 header {
+  margin-top: 0px;
     min-height: 100vh;
     text-align: center;
-    min-width: 98vw;
+    min-width: 95vw;
+    background-image: url('IMG/Hill_Cem_1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-article {
+.header_h1 {
 position: absolute;
-overflow: hidden;
+top: 20%;
+left:25%;
+right: 25%;
+border: 5px solid var(--mainColor2);
+padding: 30px;
+font-size: 80px;
+
 }
 section {
-    min-width: 95%;
+  position: relative;
     min-height: 100vh;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+div {
+  padding: 20px;
 }
 .left_half {
     float: left;
@@ -48,14 +64,18 @@ section {
     width: 45%;
   }
 
+.instagram-media {
+  float: left;
+}
 
 
 
 
 
 
-
-
+footer {
+  padding: 20px;
+}
 
 
 
@@ -77,11 +97,24 @@ hr.dashed {
   /* Solid border */
   hr.solid {
     border-top: 3px solid #bbb;
-    min-width: 98vw;
   }
   
   /* Rounded border */
   hr.rounded {
     border-top: 8px solid #bbb;
     border-radius: 5px;
+  }
+
+
+  /* ScrollBar Style! */
+ 
+  ::-webkit-scrollbar {
+    width: 16px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--mainColor4);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--mainColor1);
+    box-shadow: 0 -100vh 0 100vh var(--mainColor2), 0 0 15px 5px black;
   }
