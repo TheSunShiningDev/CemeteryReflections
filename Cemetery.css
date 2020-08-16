@@ -64,9 +64,21 @@ div {
     width: 45%;
   }
 
-.instagram-media {
-  float: left;
-}
+  iframe {
+    width: 100%;
+    height: 500px;
+  }
+  .img_gall_1 {
+    float: left;
+    width: 20%;
+    border: 3px solid var(--mainColor2);
+    margin: 20px;
+  }
+  .img_gall_2 {
+    float: left;
+    width: 30%;
+    margin: 20px;
+  }
 
 
 
